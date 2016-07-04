@@ -1,0 +1,40 @@
+{
+  "name": "subreddit-image-fetch",
+  "version": "1.0.0",
+  "description": "Single page website to fetch images from a subreddit",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --progress --colors",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveweber/subreddit-image-fetch.git"
+  },
+  "author": "Dave Weber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveweber/subreddit-image-fetch/issues"
+  },
+  "homepage": "https://github.com/daveweber/subreddit-image-fetch#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.0.16",
+    "react-redux": "^4.4.5"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^2.0.0",
+    "babel-loader": "*",
+    "babel-core": "~>6.1",
+    "babel-preset-es2015": "~>6.1",
+    "babel-preset-stage-0": "~>6.1",
+    "babel-preset-react": "~>6.1",
+    "babel-polyfill": "~>6.1",
+    "css-loader": "^0.15.1",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
